@@ -7,9 +7,9 @@ Kubernetes requires a set of machines to host the Kubernetes control plane and t
 
 Create a [Resource Group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
 
-`
-Test
-`
+```
+az group create --name rg-k8s-hwa --location eastus2
+```
 
 ## Networking
 
